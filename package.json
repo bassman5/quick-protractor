@@ -1,0 +1,22 @@
+{
+  "name": "protractor-example",
+  "version": "0.1.0",
+  "description": "A quick example of protractor for use with and without AngularJS sites",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "postinstall": "node_modules/protractor/bin/webdriver-manager update",
+    "test": "./node_modules/protractor/bin/protractor test/protractor.conf.js"
+  },
+  "keywords": [
+    "e2e2",
+    "test"
+  ],
+  "author": "Mick",
+  "license": "ISC",
+  "devDependencies": {
+    "protractor": "~1.2.0"
+  }
+}
